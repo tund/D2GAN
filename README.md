@@ -1,13 +1,13 @@
 Dual Discriminator Generative Adversarial Nets (D2GAN)
 ======================================================
 
-This TensorFlow code implements an example of Dual Discriminator Generative Adversarial Nets (D2GAN) for 2D synthetic data, presented in the paper "Dual Discriminator Generative Adversarial Nets" accepted at the 30th Conference on Neural Information Processing Systems (NIPS 2017).
+This TensorFlow code implements an example of D2GAN for 2D synthetic data, presented in the paper "***Dual Discriminator Generative Adversarial Nets***" accepted at the 30th Conference on Neural Information Processing Systems (NIPS 2017).
 
 The code is tested on Windows-based operating system with Python 3.6, TensorFlow 1.4.0.
 
 Run the model using this command:
 -------------------------------------
-	python main.py
+	python main.py --num_z 256
 
 Please kindly look at the file `main.py` for hyperparameter arguments.
 
